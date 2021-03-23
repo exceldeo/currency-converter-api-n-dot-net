@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2mLzjNIBDd6ZEn7kEzfWjIG6AYfUkVU9tyIrwCccBq8qGIBAAweBkyJtT3pVTzz2v4HT41l83GZDInAREwc2Zg==",
+  "dgSpecHash": "oGZ1P4+wNgIYd1Or8rl7vg28QCR3u2ReJLn3lwCi+0rowvtRV04wr34mCCUd4Cq0kqrK7T5X2AdSaHEfxfGNtQ==",
   "success": true,
-  "projectFilePath": "D:\\PBKK\\CurrencyConverterAPI\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
+  "projectFilePath": "D:\\excel deo\\SMT 6\\PBKK\\tugas 3\\currency-converter-api-n-dot-net\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KresnaAdhiPramana\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\LEGION\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

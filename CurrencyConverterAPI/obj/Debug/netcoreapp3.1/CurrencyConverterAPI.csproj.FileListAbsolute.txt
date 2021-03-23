@@ -15,3 +15,20 @@ D:\PBKK\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\Curren
 D:\PBKK\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.dll
 D:\PBKK\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.pdb
 D:\PBKK\CurrencyConverterAPI\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.genruntimeconfig.cache
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.csprojAssemblyReference.cache
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.Form1.resources
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.csproj.GenerateResource.cache
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.AssemblyInfoInputs.cache
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.AssemblyInfo.cs
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.csproj.CoreCompileInputs.cache
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.dll
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.pdb
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.exe
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.deps.json
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.runtimeconfig.json
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.runtimeconfig.dev.json
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.dll
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\CurrencyConverterAPI.pdb
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.csproj.CopyComplete
+D:\excel deo\SMT 6\PBKK\tugas 3\currency-converter-api-n-dot-net\CurrencyConverterAPI\obj\Debug\netcoreapp3.1\CurrencyConverterAPI.genruntimeconfig.cache

@@ -48,19 +48,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KresnaAdhiPramana\\.nuget\\packages\\": {}
+    "C:\\Users\\LEGION\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PBKK\\CurrencyConverterAPI\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
+      "projectUniqueName": "D:\\excel deo\\SMT 6\\PBKK\\tugas 3\\currency-converter-api-n-dot-net\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
       "projectName": "CurrencyConverterAPI",
-      "projectPath": "D:\\PBKK\\CurrencyConverterAPI\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
-      "packagesPath": "C:\\Users\\KresnaAdhiPramana\\.nuget\\packages\\",
-      "outputPath": "D:\\PBKK\\CurrencyConverterAPI\\CurrencyConverterAPI\\obj\\",
+      "projectPath": "D:\\excel deo\\SMT 6\\PBKK\\tugas 3\\currency-converter-api-n-dot-net\\CurrencyConverterAPI\\CurrencyConverterAPI.csproj",
+      "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
+      "outputPath": "D:\\excel deo\\SMT 6\\PBKK\\tugas 3\\currency-converter-api-n-dot-net\\CurrencyConverterAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\KresnaAdhiPramana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

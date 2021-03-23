@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Currency_Conversion_App;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,44 +80,18 @@ namespace CurrencyConverterAPI
             label2.Text = Convert.ToString(input);
         }
 
-        public async void getCurrencyList()
+        public void getCurrencyList()
         {
-            string baseUrl = $"https://free.currconv.com/api/v7/currencies?apiKey=8a6251713f19f409c37d";
 
-            try
+            APIRequester currencyListRequest = new APIRequester("https://free.currconv.com/api/v7/currencies?apiKey=8a6251713f19f409c37d");
+            CurrencyList currencyList = CurrencyList.Deserialize(currencyListRequest.SendAndGetResponse());
+            CurrencyData[] datas = currencyList.ToArray();
+            foreach (CurrencyData currency in datas)
             {
-                using (HttpClient client = new HttpClient())
-                {
-                    using (HttpResponseMessage res = await client.GetAsync(baseUrl))
-                    {
-                        using (HttpContent content = res.Content)
-                        {
-                            string data = await content.ReadAsStringAsync();
-                            if (data != null)
-                            {
-                                dynamic stuff = JObject.Parse(data);
-
-                                string name = stuff.results.ToString();
-
-                                comboBox1.Items.Add("USD");
-                                comboBox2.Items.Add("PHP");
-                                comboBox2.Items.Add("USD");
-                                comboBox1.Items.Add("PHP");
-                            }
-                            else
-                            {
-                                label2.Text = "Data is Null";
-                                label2.ForeColor = Color.Red;
-                            }
-                        }
-                    }
-                }
+                comboBox1.Items.Add(currency.id);
+                comboBox2.Items.Add(currency.id);
             }
-            catch (Exception exception)
-            {
-                label2.Text = exception.ToString();
-                label2.ForeColor = Color.Red;
-            }
+
         }
 
         public static double ExchangeRate(string from, string to, string date)
