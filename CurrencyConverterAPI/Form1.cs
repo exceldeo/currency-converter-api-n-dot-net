@@ -1,16 +1,9 @@
 ﻿using Currency_Conversion_App;
 using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CurrencyConverterAPI
@@ -21,7 +14,7 @@ namespace CurrencyConverterAPI
         {
             InitializeComponent();
 
-            // set label2 to null
+            // Set label2 to null value
             label2.Text = "";
             getCurrencyList();
         }
@@ -71,27 +64,53 @@ namespace CurrencyConverterAPI
 
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            double input = Convert.ToDouble(textBox1.Text);
-            double rate = ExchangeRate(comboBox1.Text, comboBox2.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
-            input = input * rate;
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                label2.Text = "Insert a number.";
+                label2.ForeColor = Color.Red;
+            }
+            else
+            {
+                if (string.IsNullOrEmpty(comboBox1.Text) || string.IsNullOrEmpty(comboBox2.Text))
+                {
+                    label2.Text = "One or two of the currencies are still empty.";
+                    label2.ForeColor = Color.Red;
+                }
+                else
+                {
+                    double input = Convert.ToDouble(textBox1.Text);
+                    double rate = ExchangeRate(comboBox1.Text, comboBox2.Text, dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
+                    input = input * rate;
 
-            label2.Text = Convert.ToString(input);
+                    label2.Text = Convert.ToString(input);
+                    label2.ForeColor = Color.Black;
+                }
+            } 
         }
 
         public void getCurrencyList()
         {
-
             APIRequester currencyListRequest = new APIRequester("https://free.currconv.com/api/v7/currencies?apiKey=8a6251713f19f409c37d");
             CurrencyList currencyList = CurrencyList.Deserialize(currencyListRequest.SendAndGetResponse());
-            CurrencyData[] datas = currencyList.ToArray();
+            
+            CurrencyData[] datas = currencyList.ToArray(); 
             foreach (CurrencyData currency in datas)
             {
                 comboBox1.Items.Add(currency.id);
                 comboBox2.Items.Add(currency.id);
             }
-
         }
 
         public static double ExchangeRate(string from, string to, string date)
